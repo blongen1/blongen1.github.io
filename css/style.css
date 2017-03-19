@@ -2,107 +2,59 @@
 
 body {
 
-    background-color: #004bcc;
+    background-image: url("homebackground.jpg");
     
 }
 
-#Title {
 
-	padding-top: 25px;
-	padding-bottom: 25px;
-	margin-top: 20px;
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: black;
-	color: white;
+div.welcome {
+	
+    height: 30em;
+    position: relative 
+	
+}
+div.welcome p {
+	
+	cursor:default;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
+    margin: 0;
+	font-size: 80px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 	
 }
 
-#Content {
+div.horizline p{
 	
-	padding-top: 30px;
-	padding-bottom: 30px;
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #990000;
-	color: white;
-	
-}
-
-#Filler {
-	
-	background-color: #990000;
-	margin-left: auto;
-	margin-right: auto;
-	height: 300px;
-	width: 1000px;
-	
-}
-	
-#Credits {
-	
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	background-color: black;
-	color: white;
+	cursor:default;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
+    margin: 0;
+	font-size: 80px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 	
 }
 
-.button {
-    background-color: gray;
-    border: none;
-    color: white;
-    padding: 16px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	width: 325px;
-    font-size: 16px;
-    margin-left:auto;
-	margin-right: auto;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor:hand;
-	border-radius: 12px;
+div.buttonchoices p{
+	
+	cursor:pointer;
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
+    margin: 0;
+	font-size: 30px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	
 }
 
-.button1 {
-    background-color: #cccccc;
-    color: black;
-    border: 3px solid black;
-}
-
-.button1:hover {
-    background-color: black;
-    color: white;
-}
-
-input {
-
-    border: 2px solid black;
-    -webkit-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    -moz-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    padding: 5px;
-    font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
-   	font-size: 18px;
-    background: #cccccc;
-    margin: 0 0 10px 0;
-}
-
-p.custom1 {
-    font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
-	font-size: 20px;
-}
