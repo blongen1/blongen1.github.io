@@ -13,7 +13,7 @@ div.welcome {
     position: relative 
 	
 }
-div.welcome p {
+div.welcome p{
 	
 	cursor:default;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
@@ -44,7 +44,7 @@ div.horizline p{
 }
 
 div.buttonchoices p{
-	
+
 	cursor:pointer;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
     margin: 0;
@@ -58,3 +58,7 @@ div.buttonchoices p{
 	
 }
 
+a:link    {color: black;}
+a:visited {color: black;}
+a:hover   {color: white;}
+a:active  {color: black;}
