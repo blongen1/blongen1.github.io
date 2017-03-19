@@ -1,7 +1,0 @@
-RewriteEngine On
-RewriteBase /
-
-# redirect html pages to the root domain
-RewriteRule ^index\.html$ / [NC,R,L]
-
-# found from http://stackoverflow.com/questions/8545243/redirect-www-mysite-com-index-html-to-www-mysite-com-with-htaccess-file
