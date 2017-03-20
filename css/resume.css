@@ -39,10 +39,6 @@ div.absolute {
 	height: 240px;
 	border: 2px solid black;
 }
-#ContactInfo {
-	padding-left: 10px;
-	font-size: 120%;
-}
 #ReturnHome {
 	
 	cursor:pointer;
@@ -56,5 +52,5 @@ div.absolute {
 
 a:link    {color: #d7d7e0;}
 a:visited {color: #d7d7e0;}
-a:hover   {color: #d7d7e0;}
+a:hover   {color: white;}
 a:active  {color: #d7d7e0;}
