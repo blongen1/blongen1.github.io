@@ -8,22 +8,22 @@ body {
 
 #Title {
 	font-size: 140%;
-	color:white;
+	color:#d7d7e0;
 	margin-top: 15px;
 	margin-bottom: 40px;
 	border-top: 5px solid black;
 	border-bottom: 5px solid black;
-	border-color:white;
+	border-color:#d7d7e0;
 }
 #Categories {
-	color:white;
+	color:#d7d7e0;
 	border-bottom: 2px solid black;
 	width: 700px;
 	padding-left: 10px;
-	border-color: white;
+	border-color: #d7d7e0;
 }
 #Descriptions {
-	color:white;
+	color:#d7d7e0;
 	margin-bottom: 35px;
 	list-style-type: filled circle;
 	padding-left: 50px;
@@ -43,8 +43,18 @@ div.absolute {
 	padding-left: 10px;
 	font-size: 120%;
 }
+#ReturnHome {
+	
+	cursor:pointer;
+	text-align: center;
+	border-radius: 10px;
+	background-color:black;
+	color:#d7d7e0;
+	width: 200px;
+	
+}
 
-a:link    {color: black;}
-a:visited {color: black;}
-a:hover   {color: black;}
-a:active  {color: black;}
+a:link    {color: #d7d7e0;}
+a:visited {color: #d7d7e0;}
+a:hover   {color: #d7d7e0;}
+a:active  {color: #d7d7e0;}
