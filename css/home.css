@@ -7,13 +7,6 @@ body {
 	background-repeat: no-repeat;
 
 }
-
-@media only screen and (max-width: 1080px) {
-    body {
-        background-image: url("portraitbackground.jpg");
-    }	
-}
-
 div.welcome {
 	
     height: 30em;
@@ -25,7 +18,7 @@ div.welcome p{
 	cursor:default;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
     margin: 0;
-	font-size: 80px;
+	font-size: 500%;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     position: absolute;
     top: 50%;
@@ -35,35 +28,18 @@ div.welcome p{
 	
 }
 
-div.horizline p{
-	
-	cursor:default;
-    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
-    margin: 0;
-	font-size: 80px;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-	
+@media only screen and (max-width: 1080px) {
+    body {
+        background-image: url("portraitbackground.jpg");
+    }	
+	div.welcome {
+		height: 60em;
+	}
+	div.welcome p{
+		font-size: 700%;
+	}
 }
 
-div.buttonchoices p{
-
-	cursor:pointer;
-    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
-    margin: 0;
-	font-size: 30px;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-	
-}
 
 a:link    {color: black;}
 a:visited {color: black;}
