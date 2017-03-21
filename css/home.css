@@ -2,18 +2,11 @@
 
 body {
 
+	background: black;
     background-image: url("homebackground.jpg");
-	
-	@media only screen and (max-device-width: 1080px) and (orientation: portrait) {
-	
-	background-position: left top;
-	background-size: auto 100%;
-	
-}		
-	
-    
-}
+	background-repeat: no-repeat;
 
+}
 
 div.welcome {
 	
