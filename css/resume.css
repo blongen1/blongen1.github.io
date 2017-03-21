@@ -7,6 +7,7 @@ body {
 }
 
 #Title {
+	cursor:default;
 	text-align:center;
 	font-size: 140%;
 	color:#d7d7e0;
@@ -17,6 +18,7 @@ body {
 	border-color:#d7d7e0;
 }
 #Categories {
+	cursor:default;
 	color:#d7d7e0;
 	border-bottom: 2px solid black;
 	width: 700px;
@@ -24,6 +26,7 @@ body {
 	border-color: #d7d7e0;
 }
 #Descriptions {
+	cursor:default;
 	color:#d7d7e0;
 	margin-bottom: 35px;
 	list-style-type: filled circle;
