@@ -13,18 +13,41 @@ div.welcome {
     position: relative 
 	
 }
-div.welcome p{
+div.welcome h6{
 	
 	cursor:default;
+	font-weight:normal;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
     margin: 0;
 	font-size: 500%;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+	padding-bottom: 20px;
+	border-bottom: 5px black solid;
+	
+}
+div.welcome p {
+	
+    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;  
+    margin: 0;
+	font-size: 250%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	
+}
+
+div.choices {
+	
+    height: 30em;
+    position: relative 
 	
 }
 
@@ -35,8 +58,11 @@ div.welcome p{
 	div.welcome {
 		height: 60em;
 	}
-	div.welcome p{
+	div.welcome h6{
 		font-size: 700%;
+	}
+	div.welcome p{
+		font-size: 400%;
 	}
 }
 
