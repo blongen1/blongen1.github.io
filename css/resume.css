@@ -3,12 +3,13 @@
 body {
 
 	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("homebackground.jpg");	
-    
+    	background-attachment: fixed;
 }
 
 @media only screen and (max-width: 1080px) {
     body {
         background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("portraitbackground.jpg");
+	background-attachment: fixed;
     }	
 }
 
